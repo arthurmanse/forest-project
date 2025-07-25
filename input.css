@@ -55,3 +55,9 @@
 @utility animate-4 {
   animation-delay: 400ms;
 }
+
+@layer components {
+  .neon {
+    @apply rounded-full border border-verde-200 bg-linear-to-b from-verde-200 to-verde-400 shadow-verde-200 shadow-[0_1px_4px_1px_verde-200]/25 inset-shadow-sm inset-shadow-ver-200;
+  }
+}
